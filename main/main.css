@@ -1,0 +1,307 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+button {
+  border: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+@media screen and (min-width: 700px) {
+  .container {
+    max-width: 90%;
+    margin: 0 auto;
+  }
+}
+@media screen and (min-width: 835px) {
+  .container {
+    max-width: 90%;
+    margin: 0 auto;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .container {
+    max-width: 90%;
+    margin: 0 auto;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+}
+header {
+  padding-top: 40px;
+  padding-bottom: 35px;
+  background-image: url(../images/blue_circle.png), url(../icon/yellow_circle.svg), url(../icon/small_circle_blue.svg), url(../images/pink_circle.png);
+  background-repeat: no-repeat;
+  background-position: right 116px, 230px 321px, 284px 453px, right 784px;
+  background-size: auto;
+}
+header .navbar {
+  display: flex;
+  gap: 83px;
+  align-items: center;
+  margin-bottom: 103px;
+}
+header .navbar .nav_left {
+  display: flex;
+}
+header .navbar .nav_left ul {
+  display: none;
+}
+header .navbar .nav_left .navbar_log {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+header .navbar .nav_right button {
+  display: none;
+}
+header .hero_left {
+  display: flex;
+  flex-direction: column;
+  gap: 39px;
+  align-items: start;
+}
+header .hero_left h1 {
+  color: #292930;
+  font-family: "DM Sans", sans-serif;
+  font-size: 60px;
+  font-weight: 500;
+  line-height: 99.327%;
+  letter-spacing: -1.5px;
+}
+header .hero_left .line {
+  display: inline-block;
+  width: 25%;
+  border-bottom: 3px solid #5956e9;
+}
+header .hero_left p {
+  color: #999fae;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+header .action {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 113px;
+}
+header .action button {
+  padding: 29px 36px;
+  border-radius: 20px;
+  background: #5956e9;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: -0.64px;
+}
+header .action .see_action {
+  border-radius: 16px;
+  border: 1px solid #e3e6e9;
+  padding: 24px;
+}
+header .action .see_action a {
+  display: none;
+}
+header .scroll {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+header .scroll a {
+  color: #999fae;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 160%;
+  letter-spacing: -0.375px;
+}
+header .hero_rigth {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+header .hero_rigth .hero_img1 {
+  max-width: 400px;
+}
+header .hero_rigth .hero_img2 {
+  position: absolute;
+  top: 264px;
+  transform: translateX(111px);
+  max-width: 77px;
+}
+header .hero_rigth .hero_img3 {
+  position: absolute;
+  top: 25px;
+  transform: translateX(99px);
+  max-width: 141px;
+}
+
+@media screen and (min-width: 700px) {
+  header .navbar {
+    gap: 380px;
+  }
+  header .hero_left h1 {
+    font-size: 75px;
+  }
+  header .hero_left .line {
+    border: 5px solid #5956e9;
+  }
+  header .hero_left p {
+    font-size: 20px;
+    max-width: 406px;
+  }
+  header .action {
+    gap: 244px;
+  }
+}
+@media screen and (min-width: 835px) {
+  header .hero_left h1 {
+    max-width: 800px;
+    font-size: 80px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  header {
+    background-image: url(../icon/yellow_circle.svg), url(../icon/small_circle_blue.svg), url(../images/blue_circle_big.png), url(../icon/yellow_ellipse.png), url(../icon/pinc_circleee.png);
+    background-repeat: no-repeat;
+    background-position: 511px 285px, 536px 724px, right, left top, 718px 943px;
+    background-size: 100px, 40px, auto, auto, auto;
+  }
+  header .navbar {
+    gap: 72px;
+  }
+  header .navbar .nav_left {
+    gap: 59px;
+    align-items: center;
+  }
+  header .navbar .nav_left ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 55px;
+  }
+  header .navbar .nav_left ul a {
+    color: #292930;
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    padding-bottom: 15px;
+  }
+  header .navbar .nav_left ul a:hover {
+    text-decoration: underline 2px solid #5956e9;
+  }
+  header .navbar .nav_left .navbar_log i {
+    display: none;
+  }
+  header .navbar .nav_right {
+    display: flex;
+    align-items: center;
+    gap: 67px;
+  }
+  header .navbar .nav_right button {
+    padding: 24px 29px;
+    display: block;
+    border-radius: 20px;
+    background: #fab8c4;
+    color: #2522ba;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: -0.64px;
+  }
+  header .hero {
+    display: flex;
+    align-items: center;
+  }
+  header .hero_left h1 {
+    color: #292930;
+    font-family: "DM Sans", sans-serif;
+    font-size: 96px;
+    font-weight: 700;
+    line-height: 99.327%;
+    letter-spacing: -2.4px;
+    width: 426px;
+  }
+  header .hero_left p {
+    font-size: 18px;
+    max-width: 378px;
+  }
+  header .action {
+    gap: 32px;
+  }
+  header .action .see_action {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    border: none;
+    padding: 0;
+  }
+  header .action .see_action a {
+    display: block;
+    color: #999fae;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: -0.64px;
+  }
+  header .hero_rigth .hero_img1 {
+    max-width: 650px;
+    transform: translateY(-87px);
+  }
+  header .hero_rigth .hero_img3 {
+    top: -69px;
+    transform: translateX(251px);
+    max-width: 220px;
+  }
+  header .hero_rigth .hero_img2 {
+    top: 371px;
+    transform: translateX(175px);
+    max-width: 95px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  header {
+    background-image: url(../icon/yellow_circle.svg), url(../icon/small_circle_blue.svg), url(../images/blue_circle_big.png), url(../icon/yellow_ellipse.png), url(../icon/pinc_circleee.png), url(../icon/small_pinc.png);
+    background-repeat: no-repeat;
+    background-position: 634px 285px, 536px 724px, right, left top, 718px 943px, 50px 438px;
+    background-size: 100px, 40px, auto, auto, auto, auto;
+  }
+  header .navbar {
+    gap: 180px;
+  }
+  header .navbar .nav_right button {
+    padding: 24px 22px;
+  }
+  header .hero_left .line {
+    width: 35%;
+    border-bottom: 13px solid #5956e9;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
