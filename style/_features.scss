@@ -1,0 +1,313 @@
+.features {
+  background-image: url(../icon/ellipse_grain/Ellipse.png),
+    url(../images/Ellipse_big.png), url(../images/bacround_line1.png);
+  background-repeat: no-repeat;
+  //   background-size: cover;
+  background-position: right 59px, 84px 431px, right 0;
+  background-color: #27272e;
+  color: #ffffff;
+  padding: 78px 0;
+  .features_left {
+    h4 {
+      font-family: $font-family1;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 99.327%;
+    }
+    .number_text {
+      display: none;
+    }
+    .right_lefticon {
+      display: none;
+    }
+  }
+  .features_right {
+    .top_text {
+      h2 {
+        font-family: $font-family1;
+        font-size: 48px;
+        font-weight: 500;
+        line-height: 100%;
+        margin-top: 16px;
+        margin-bottom: 32px;
+      }
+      p {
+        font-family: $font-family2;
+        font-size: 16px;
+        font-weight: 400;
+      }
+
+      .none_text_number {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 50px;
+        margin-bottom: 55px;
+        .number_text1 {
+          display: flex;
+          gap: 10px;
+          align-items: center;
+          p {
+            font-family: $font-family1;
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 99.327%;
+            letter-spacing: -0.35px;
+          }
+          .line2 {
+            width: 50px;
+            height: 1px;
+            background-color: white;
+          }
+        }
+      }
+    }
+
+    .right_lefticon1 {
+      img {
+        max-width: 80px;
+      }
+    }
+    .bottom_text {
+      .calendar {
+        display: none;
+      }
+      .photos {
+        h3 {
+          font-family: $font-family1;
+          font-size: 20px;
+          font-weight: 500;
+          line-height: 140%;
+          letter-spacing: -0.9px;
+          margin-top: 42px;
+          margin-bottom: 24px;
+        }
+        p {
+          font-family: $font-family2;
+          font-size: 15px;
+          font-weight: 400;
+          line-height: 160%;
+          letter-spacing: -0.375px;
+          margin-bottom: 31px;
+        }
+        span {
+          font-family: $font-family2;
+          font-size: 16px;
+          font-weight: 500;
+          letter-spacing: -0.64px;
+        }
+      }
+    }
+  }
+}
+@media screen and (min-width: 700px) {
+  .features {
+    .black_background {
+      display: flex;
+      gap: 100px;
+    }
+    .features_left {
+      margin-top: 26px;
+    }
+    .black_background {
+      display: flex;
+      flex-direction: row;
+      gap: 144px;
+      align-items: start;
+    }
+    .features_left {
+      display: flex;
+      flex-direction: column;
+      margin-top: 28px;
+
+      h4 {
+        margin-bottom: 400px;
+      }
+
+      .number_text {
+        display: flex;
+        align-items: center;
+        gap: 25px;
+        margin-bottom: 142px;
+        .line2 {
+          width: 50px;
+          height: 2px;
+          background-color: white;
+        }
+      }
+      .right_lefticon {
+        display: block;
+      }
+    }
+    .features_right {
+      display: flex;
+      flex-direction: column;
+      gap: 55px;
+      .top_text {
+        h2 {
+          font-family: $font-family1;
+          font-size: 44px;
+          font-weight: 500;
+          line-height: 100%;
+          letter-spacing: -1.7px;
+        }
+        p {
+          font-family: $font-family2;
+          font-size: 18px;
+          font-weight: 400;
+          max-width: 449px;
+        }
+        .none_text_number {
+          .number_text1 {
+            display: none;
+          }
+          .right_lefticon1 {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (min-width: 1024px) {
+  .features {
+    background-image: url(../images/powerful_ellipse.png),
+      url(../images/circlee.png), url(../images/Line_radius.png),
+      url(../images/circle11.png), url(../images/circlee12.png);
+    background-position: right 126px, 30px top, -50px 249px, left 518px,
+      193px 54px;
+    .black_background {
+      display: flex;
+      flex-direction: row;
+      gap: 144px;
+      align-items: start;
+    }
+    .features_left {
+      display: flex;
+      flex-direction: column;
+      margin-top: 28px;
+
+      h4 {
+        margin-bottom: 529px;
+      }
+
+      .number_text {
+        display: flex;
+        align-items: center;
+        gap: 25px;
+        margin-bottom: 142px;
+        .line2 {
+          width: 50px;
+          height: 2px;
+          background-color: white;
+        }
+      }
+      .right_lefticon {
+        display: block;
+      }
+    }
+    .features_right {
+      display: flex;
+      flex-direction: column;
+      gap: 120px;
+      .top_text {
+        h2 {
+          font-family: $font-family1;
+          font-size: 68px;
+          font-weight: 500;
+          line-height: 100%;
+          letter-spacing: -1.7px;
+        }
+        p {
+          font-family: $font-family2;
+          font-size: 18px;
+          font-weight: 400;
+          max-width: 449px;
+        }
+        .none_text_number {
+          .number_text1 {
+            display: none;
+          }
+          .right_lefticon1 {
+            display: none;
+          }
+        }
+      }
+      .bottom_text {
+        display: flex;
+        gap: 100px;
+        .calendar {
+          display: block;
+          h3 {
+            font-family: $font-family1;
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 140%;
+            letter-spacing: -0.9px;
+            margin-top: 13px;
+            margin-bottom: 24px;
+          }
+          p {
+            font-family: $font-family2;
+            font-size: 15px;
+            font-weight: 400;
+            line-height: 160%;
+            letter-spacing: -0.375px;
+            margin-bottom: 31px;
+          }
+          span {
+            font-family: $font-family1;
+            font-size: 16px;
+            font-weight: 500;
+            letter-spacing: -0.64px;
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (min-width: 1200px) {
+  .features {
+    background-image: url(../images/circlee13.png), url(../images/circlee.png),
+      url(../images/toll_line.png), url(../images/circlee14.png),
+      url(../images/circlee12.png);
+    background-position: 888px 145px, 159px top, -50px 249px, 54px 518px,
+      286px 88px;
+    padding-top: 150px;
+    .features_left {
+      h4 {
+        font-size: 20px;
+      }
+    }
+    .features_right {
+      .bottom_text {
+        .photos {
+          h3 {
+            font-size: 24px;
+          }
+          p {
+            font-size: 16px;
+          }
+        }
+        .calendar {
+          h3 {
+            font-size: 24px;
+          }
+          p {
+            font-size: 16px;
+          }
+        }
+      }
+      .top_text {
+        h2 {
+          font-family: $font-family1;
+          font-size: 80px;
+          font-weight: 500;
+          line-height: 100%;
+          letter-spacing: -2px;
+        }
+      }
+    }
+  }
+}
